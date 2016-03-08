@@ -4,7 +4,7 @@ require 'rets4r/client/exceptions'
 module RETS4R
   class Client
     class Requester
-      DEFAULT_USER_AGENT      = "rets4r/#{::RETS4R::VERSION}"
+      DEFAULT_USER_AGENT      = "rets4r/1.1.18"
       DEFAULT_RETS_VERSION    = '1.7'
 
       attr_accessor :logger, :headers, :pre_request_block, :post_request_block, :auth
